@@ -25,9 +25,11 @@ export default {
   name: 'hello',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App   My name is Joan ！！'
+      msg: 'Welcome to Your Vue.js App   My name is Joan ！！哈哈哈'
     }
+
   }
+
 }
 </script>
 
