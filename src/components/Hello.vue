@@ -9,7 +9,7 @@
       <li><a href="https://twitter.com/vuejs" target="_blank">Twitter</a></li>
       <br>
       <li><a href="http://vuejs-templates.github.io/webpack/" target="_blank">Docs for This Template</a></li>
-    </ul>
+    </ul>fatal: Authentication failed for 'https://gitlab.mila66.com/mila/hrmv2.git/'
     <h2>Ecosystem</h2>
     <ul>
       <li><a href="http://router.vuejs.org/" target="_blank">vue-router</a></li>
@@ -17,15 +17,27 @@
       <li><a href="http://vue-loader.vuejs.org/" target="_blank">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
     </ul>
+
+    <!-- 华丽丽的分割线 -->
+    <hr>
+    <h2>tab demo</h2>
+    <ul>
+      <!-- <li ><a href="#" router-link="{path:'/demo1'}">demo1</a></li>
+      <li ><a href="#" router-link="{path:'/demo2'}">demo2</a></li> -->
+       <router-link to="/demo1">demo1</router-link>
+       <router-link to="/demo2">demo2</router-link>
+    </ul>
+    <input type="text" placeholder="你的名字" v-model="user" /> 
   </div>
 </template>
 
 <script>
 export default {
-  name: 'hello',
+  name: 'Hello',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App   My name is Joan ！！哈哈哈'
+      user:"Joan",
+      msg: 'Welcome to Your Vue.js App   My name is Joan ！'
     }
 
   }
