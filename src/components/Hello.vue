@@ -37,7 +37,7 @@ export default {
   data () {
     return {
       user:"Joan",
-      msg: 'Welcome to Your Vue.js App   My name is Joan ！'
+      msg: 'hello, My name is Joan ！'
     }
 
   }
